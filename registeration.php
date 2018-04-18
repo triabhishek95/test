@@ -1,8 +1,7 @@
 <?php
-
-echo "testing";
-
-echo "oh god what is this happening I am trying to understand";
-
-?>
-
+<?php
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Webindiainc_Newsletter',
+    __DIR__
+);
